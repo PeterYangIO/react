@@ -18,7 +18,8 @@
     "test": "jest",
     "test:update": "npm run test -- --updateSnapshot",
     "release": "npm run build && changeset publish",
-    "size": "size-limit"
+    "size": "size-limit",
+    "cypress:open": "cypress open"
   },
   "repository": "primer/react",
   "keywords": [
@@ -107,6 +108,7 @@
     "concurrently": "6.4.0",
     "copyfiles": "2.4.1",
     "cross-env": "7.0.3",
+    "cypress": "9.2.0",
     "enzyme": "3.11.0",
     "eslint": "7.28.0",
     "eslint-plugin-github": "4.1.3",
